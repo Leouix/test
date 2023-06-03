@@ -21,40 +21,6 @@ services:
     networks:
       - app-network
 
-  #Nginx Service
-  webserver:
-    image: nginx:alpine
-    container_name: webserver
-    restart: unless-stopped
-    tty: true
-    ports:
-      - "8000:8000"
-    volumes:
-      - ./backend/:/var/www/app/backend
-      - ./backend/docker/nginx/:/etc/nginx/conf.d/
-    depends_on:
-      - db
-    links:
-      - backend
-    networks:
-      - app-network
-
-  frontend:
-    build:
-      context: ./frontend
-      dockerfile: Dockerfile
-    tty: true
-    ports:
-      - "3000:3000"
-    volumes:
-      - ./frontend:/app/frontend
-    links:
-      - backend
-    depends_on:
-      - backend
-    networks:
-      - app-network
-
   db:
     image: mysql:5.7.22
     environment:
