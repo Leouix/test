@@ -21,21 +21,21 @@ RUN groupadd -g 1000 www
 RUN useradd -u 1000 -ms /bin/bash -g www www
 
 # Копируем содержимое текущего каталога в рабочую директорию
-COPY . /app
-RUN chown -R www:www . /app
+COPY . /app/backend
+RUN chown -R www:www . /app/backend
 
 # Меняем пользователя на www
 USER www
-WORKDIR /app
-
-# ENTRYPOINT ["./init.sh"]
-
-# В контейнере открываем 9000 порт и запускаем сервер php-fpm
-#EXPOSE 9000
-#CMD ["php-fpm"]
+WORKDIR /app/backend
 
 RUN composer install
 
+
 EXPOSE 9000
+# CMD php artisan migrate
 # CMD php artisan serve --host=0.0.0.0 --port=9000
 CMD ["php-fpm"]
+# CMD ["php artisan migrate"]
+# CMD php artisan migrate
+
+# ENTRYPOINT ["./init.sh"]

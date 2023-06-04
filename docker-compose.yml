@@ -27,14 +27,31 @@ services:
     restart: unless-stopped
     tty: true
     ports:
-      - "80:80"
+      - "8000:8000"
     volumes:
-      - ./backend/:/app
+      - ./backend/:/app/backend
       - ./backend/docker/nginx/:/etc/nginx/conf.d/
     depends_on:
       - db
       - backend
     links:
+      - backend
+    networks:
+      - app-network
+
+  frontend:
+    build:
+      context: ./frontend
+      dockerfile: Dockerfile
+    tty: true
+    ports:
+      - "3000:3000"
+#    volumes:
+#      - ./frontend:/app/frontend
+#      - ./frontend:/app/frontend/node_modules
+    links:
+      - backend
+    depends_on:
       - backend
     networks:
       - app-network
