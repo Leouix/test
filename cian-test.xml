@@ -1,0 +1,144 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<feed>
+  <feed_version>2</feed_version>
+  <object>
+    <ExternalId>id9361d248570</ExternalId>
+    <Description><![CDATA[В аренду предлагаются офисы на 8 этаже от 800 кв.м до 1404 кв.м. Пропускная система - централизованная.
+Бизнес-центр Прео 8 класса A по адресу Преображенская площадь, д.8.
+О здании:
+Вентиляция: приточно-вытяжная. Кондиционирование: центральное. Пожарная сигнализация: спринклерная система.Охрана: круглосуточная охрана здания. Инфраструктура: Торговая зона. Парковка.
+Расположение здания характеризуется хорошей транспортной доступностью как личным, так и общественным транспортом.
+Звоните! Наши менеджеры ответят на все вопросы и направят Вам дополнительную информацию по объекту. БЕЗ комиссий и скрытых платежей, прямая аренда от собственника. Объявление актуально.]]></Description>
+    <SubAgent>
+      <Email>a.pestova@officecenter.ru</Email>
+      <Phone>(35222)87-6391</Phone>
+      <FirstName>Арина</FirstName>
+      <LastName>Пестова</LastName>
+      <AvatarUrl>https://base1.of.ru/system/images/2023/05/user/89752.png</AvatarUrl>
+    </SubAgent>
+    <Address>Пресненская набережная, д.8с1</Address>
+    <Coordinates>
+      <Lat>55.747115</Lat>
+      <Lng>37.539078</Lng>
+    </Coordinates>
+    <Photos>
+      <PhotoSchema>
+        <FullUrl>https://base1.of.ru/system/images/2023/05/user/98632.png</FullUrl>
+        <IsDefault>1</IsDefault>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://base1.of.ru/system/images/2023/05/user/89751.png</FullUrl>
+        <IsDefault/>
+      </PhotoSchema>
+      <PhotoSchema>
+        <FullUrl>https://base1.of.ru/system/images/2023/05/user/89752.png</FullUrl>
+        <IsDefault/>
+      </PhotoSchema>
+    </Photos>
+    <Building>
+      <Name>Город Столиц</Name>
+      <FloorsCount>75</FloorsCount>
+      <TotalArea>289000</TotalArea>
+      <BuildYear>2008</BuildYear>
+      <Type>МФК</Type>
+      <ClassType>A</ClassType>
+      <VentilationType>Приточно-вытяжная</VentilationType>
+      <ConditioningType>Центральное</ConditioningType>
+      <ExtinguishingSystemType>Спринклерная система</ExtinguishingSystemType>
+    </Building>
+    <Undergrounds>
+      <UndergroundInfoSchema>
+        <Id>181</Id>
+        <Time>5</Time>
+      </UndergroundInfoSchema>
+      <UndergroundInfoSchema>
+        <Id>228</Id>
+        <Time>1</Time>
+      </UndergroundInfoSchema>
+    </Undergrounds>
+    <AccessType>passSystem</AccessType>
+    <Category>officeSale</Category>
+    <PublishTerms>
+      <Terms>
+        <PublishTermSchema>
+          <Services>
+            <ServicesEnum>premium</ServicesEnum>
+          </Services>
+        </PublishTermSchema>
+      </Terms>
+    </PublishTerms>
+    <BargainTerms>
+      <Price>34193.00</Price>
+      <Currency>rur</Currency>
+      <PriceType>squareMeter</PriceType>
+      <VatType>included</VatType>
+      <LeaseType>direct</LeaseType>
+      <AgentBonus>
+        <Value>50.00</Value>
+        <PaymentType>percent</PaymentType>
+      </AgentBonus>
+    </BargainTerms>
+  </object>
+  <object>
+    <ExternalId>id4329d454658</ExternalId>
+    <Description><![CDATA[descriptiond]]></Description>
+    <SubAgent>
+      <Email>merkulov@realtybook.ru</Email>
+      <Phone>(495)240-7500</Phone>
+      <FirstName>Николай</FirstName>
+      <LastName>Меркулов</LastName>
+      <AvatarUrl>https://base1.of.ru/system/</AvatarUrl>
+    </SubAgent>
+    <Address>улица 10-летия Октября, д.11</Address>
+    <Coordinates>
+      <Lat>55.725326</Lat>
+      <Lng>37.5637</Lng>
+    </Coordinates>
+    <Photos/>
+    <Building>
+      <Name>Гостиница Арена 2*</Name>
+      <FloorsCount>12</FloorsCount>
+      <TotalArea>7742</TotalArea>
+      <BuildYear>1979</BuildYear>
+      <Type>Адм. здание</Type>
+      <ClassType>B-</ClassType>
+      <ExtinguishingSystemType>Неизвестно</ExtinguishingSystemType>
+    </Building>
+    <Undergrounds>
+      <UndergroundInfoSchema>
+        <Id>35</Id>
+        <Time>2</Time>
+      </UndergroundInfoSchema>
+      <UndergroundInfoSchema>
+        <Id>34</Id>
+        <Time>10</Time>
+      </UndergroundInfoSchema>
+    </Undergrounds>
+    <Category>officeSale</Category>
+    <PublishTerms>
+      <Terms>
+        <PublishTermSchema>
+          <Services>
+            <ServicesEnum>premium</ServicesEnum>
+          </Services>
+        </PublishTermSchema>
+      </Terms>
+    </PublishTerms>
+    <BargainTerms>
+      <Price>1000000.00</Price>
+      <Currency>rur</Currency>
+      <PriceType>squareMeter</PriceType>
+      <VatType>included</VatType>
+      <IncludedOptions>
+        <IncludedOptionsEnum>utilityCharges</IncludedOptionsEnum>
+      </IncludedOptions>
+      <LeaseType>sublease</LeaseType>
+      <LeaseTermType>longTerm</LeaseTermType>
+      <AgentBonus>
+        <Value>0.00</Value>
+        <PaymentType>percent</PaymentType>
+      </AgentBonus>
+    </BargainTerms>
+  </object>
+</feed>
+
